@@ -3,12 +3,14 @@ layout: default
 title: Contacts
 ---
 
-<main class="page" markdown="1">
+<main class="page">
 
-# Contacts
+  <h1>Contacts</h1>
 
-- Professor Michael Bluck — [m.bluck@imperial.ac.uk](mailto:m.bluck@imperial.ac.uk)
-- Dr Wei Wang — [wei.wang@stfc.ac.uk](mailto:wei.wang@stfc.ac.uk)
-- Dr Yu Duan — [yu.duan@sheffield.ac.uk](mailto:yu.duan@sheffield.ac.uk) / [y.duan@imperial.ac.uk](mailto:y.duan@imperial.ac.uk)
+  <ul>
+    <li>Professor Michael Bluck — <a href="mailto:m.bluck@imperial.ac.uk">m.bluck@imperial.ac.uk</a></li>
+    <li>Dr Wei Wang — <a href="mailto:wei.wang@stfc.ac.uk">wei.wang@stfc.ac.uk</a></li>
+    <li>Dr Yu Duan — <a href="mailto:yu.duan@sheffield.ac.uk">yu.duan@sheffield.ac.uk</a> / <a href="mailto:y.duan@imperial.ac.uk">y.duan@imperial.ac.uk</a></li>
+  </ul>
 
 </main>
