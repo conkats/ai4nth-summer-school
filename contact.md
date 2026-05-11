@@ -3,7 +3,7 @@ layout: default
 title: Contacts
 ---
 
-<main class="page">
+<main class="page" markdown="1">
 
 # Contacts
 
