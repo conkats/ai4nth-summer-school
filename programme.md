@@ -47,8 +47,8 @@ Across the week, participants will be encouraged to work in a steady engineering
 |  | 15:15-16:30 | **Hands-on session:** interpret errors, compare a small number of baseline choices, and produce one simple engineering takeaway with TA support |
 |  | 16:30-17:00 | **Wrap-up:** what worked, common issues, and a minimum-success checklist for everyone |
 | **Day 2** | 09:30-09:40 | Wrap-up and refresh |
-|  | 09:40-10:30 | **Lecture 2.1:** Random Forest — decision trees, RF intuition, engineering tabular data, key hyperparameters<br>*Lecturer: Dr Junwen Yin, STFC* |
-|  | 10:30-11:20 | **Lecture 2.2:** Gradient Boosting — relationship to RF, progressive boosting logic, key tuning parameters<br>*Lecturer: Dr Junwen Yin, STFC* |
+|  | 09:40-10:30 | **Lecture 2.1:** Random Forest — decision trees, RF intuition, engineering tabular data, key hyperparameters<br>*Lecturer: Dr Junwen Yin (STFC)* |
+|  | 10:30-11:20 | **Lecture 2.2:** Gradient Boosting — relationship to RF, progressive boosting logic, key tuning parameters<br>*Lecturer: Dr Junwen Yin (STFC)* |
 |  | 11:20-11:30 | Break |
 |  | 11:30-12:30 | **Morning synthesis:** cross-validation, regime-wise diagnostics, and cautious interpretability |
 |  | 12:30-13:30 | Lunch |
@@ -58,8 +58,8 @@ Across the week, participants will be encouraged to work in a steady engineering
 |  | 15:15-16:30 | **Hands-on session:** run Gradient Boosting, inspect a few regime-wise errors, and decide when the extra complexity is worthwhile |
 |  | 16:30-17:00 | **Wrap-up:** compare models, share practical lessons, and note one caution for deployment |
 | **Day 3** | 09:30-09:40 | Wrap-up and refresh |
-|  | 09:40-10:30 | **Lecture 3.1:** Surrogate modelling — what is a surrogate, major surrogate families, how to build one properly, and what can go wrong<br>*Lecturer: Prof. Michael Bluck* |
-|  | 10:30-11:20 | **Lecture 3.2:** Gaussian Process regression — GP concept, kernel functions, and sources of GP uncertainty<br>*Lecturer: Dr Tim Rogers* |
+|  | 09:40-10:30 | **Lecture 3.1:** Surrogate modelling — what is a surrogate, major surrogate families, how to build one properly, and what can go wrong<br>*Lecturer: Prof. Michael Bluck (Imperial College London)* |
+|  | 10:30-11:20 | **Lecture 3.2:** Gaussian Process regression — GP concept, kernel functions, and sources of GP uncertainty<br>*Lecturer: Dr Tim Rogers (The University of Sheffield)* |
 |  | 11:20-11:30 | Break |
 |  | 11:30-12:30 | **Morning synthesis:** surrogate strategy, interpolation vs extrapolation, and uncertainty discussion |
 |  | 12:30-13:30 | Lunch |
@@ -69,8 +69,8 @@ Across the week, participants will be encouraged to work in a steady engineering
 |  | 15:15-16:30 | **Hands-on session:** test interpolation vs extrapolation behaviour, compare with earlier models, and discuss when a surrogate is useful |
 |  | 16:30-17:00 | **Wrap-up:** uncertainty observations, model limitations, and realistic use cases |
 | **Day 4** | 09:30-09:40 | Wrap-up and refresh |
-|  | 09:40-10:30 | **Lecture 4.1:** Neural networks — what an NN is, relation to other ML methods, basic training loop, and overfitting<br>*Lecturer: Dr Alex Skillen, University of Manchester* |
-|  | 10:30-11:20 | **Lecture 4.2:** Physics-guided ML in practical terms — what it is and why physics guidance matters in NTH ML<br>*Lecturer: Dr Alex Skillen, University of Manchester* |
+|  | 09:40-10:30 | **Lecture 4.1:** Neural networks — what an NN is, relation to other ML methods, basic training loop, and overfitting<br>*Lecturer: Dr Alex Skillen (University of Manchester)* |
+|  | 10:30-11:20 | **Lecture 4.2:** Physics-guided ML in practical terms — what it is and why physics guidance matters in NTH ML<br>*Lecturer: Dr Alex Skillen (University of Manchester)* |
 |  | 11:20-11:30 | Break |
 |  | 11:30-12:30 | **Morning synthesis:** neural-network limits and lightweight physics-guided guardrails |
 |  | 12:30-13:30 | Lunch |
@@ -80,10 +80,10 @@ Across the week, participants will be encouraged to work in a steady engineering
 |  | 15:15-16:30 | **Hands-on session:** inspect training behaviour, test a few edge cases, and apply simple guardrails or constraints to keep predictions sensible |
 |  | 16:30-17:00 | **Wrap-up:** what the NN improved, where it remained fragile, and how to explain that clearly |
 | **Day 5** | 09:30-09:40 | Wrap-up and refresh |
-|  | 09:40-10:30 | **Lecture 5.1:** An introduction to VVUQ — why UQ matters in NTH decisions; aleatoric vs epistemic uncertainty<br>*Lecturer: Dr Saleh Rezaeiravesh, University of Manchester* |
-|  | 10:30-11:20 | **Lecture 5.2:** UQ for decisions and safety-critical ML practices — quantifying uncertainty in ML predictions, calibration / reliability, and validation for safety-conscious use<br>*Lecturer: Dr Saleh Rezaeiravesh, University of Manchester* |
+|  | 09:40-10:30 | **Lecture 5.1:** An introduction to VVUQ — why UQ matters in NTH decisions; aleatoric vs epistemic uncertainty<br>*Lecturer: Dr Saleh Rezaeiravesh (University of Manchester)* |
+|  | 10:30-11:20 | **Lecture 5.2:** UQ for decisions and safety-critical ML practices — quantifying uncertainty in ML predictions, calibration / reliability, and validation for safety-conscious use<br>*Lecturer: Dr Saleh Rezaeiravesh (University of Manchester)* |
 |  | 11:20-11:35 | Break |
-|  | 11:35-12:30 | **Lecture 5.3:** Optimisation: turning ML models into decisions — optimisation vocabulary, constraints, safe domain checks, uncertainty-aware objectives, and validating the optimum<br>*Lecturer: Ubaid Ali Qadri, STFC* |
+|  | 11:35-12:30 | **Lecture 5.3:** Optimisation: turning ML models into decisions — optimisation vocabulary, constraints, safe domain checks, uncertainty-aware objectives, and validating the optimum<br>*Lecturer: Ubaid Ali Qadri (STFC)* |
 |  | 12:30-13:30 | Lunch |
 |  | 13:30-14:00 | **Day 5 PM introduction:** guest talks, programme synthesis, and closing discussion |
 |  | 14:00-15:15 | **Two/Three Guest talks:** invited presentations on advanced or emerging topics |
