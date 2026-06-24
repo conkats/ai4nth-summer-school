@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Lecturer Guidance
+permalink: /lecturer_guidance.html
 ---
 
 <main class="page" markdown="1">

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contacts
+permalink: /contact.html
 ---
 
 <main class="page">

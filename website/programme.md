@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Programme
+permalink: /programme.html
 ---
 
 <main class="page" markdown="1">

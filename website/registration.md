@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Registration
+permalink: /registration.html
 ---
 
 <main class="page">

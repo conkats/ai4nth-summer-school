@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Materials
+permalink: /materials.html
 ---
 
 # Teaching Materials
