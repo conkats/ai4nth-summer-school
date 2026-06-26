@@ -8,3 +8,9 @@ env/*.tar.gz
 env/*.zip
 installers/*
 portable_env/
+
+# GP dev environment
+pyproject.toml
+.venv
+.python-version
+uv.lock
