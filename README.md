@@ -45,30 +45,41 @@ Dataset contributions should go under `datasets/`. Do not add large datasets or 
 
 ### How to Contribute or Upload Materials
 
-Only repository maintainers with write access should push directly to this repository. Other contributors should use a fork and pull request workflow.
+There are two normal ways to add material. Use the first route only if you are a repository maintainer; otherwise use the fork and pull request route.
 
-Recommended contribution workflow:
+**Maintainers with write access**
 
-1. Fork the repository on GitHub.
-2. Clone your fork locally.
-3. Create a new branch, for example `materials/day2-tree-models` or `lecturer/your-name-session`.
-4. Add or update materials in the appropriate folders.
-5. Commit your changes with a clear commit message.
-6. Push the branch to your fork.
-7. Open a pull request back to `CCP-NTH/ai4nth-summer-school`.
-8. In the pull request description, summarise what was added, any software requirements, dataset/licence notes, and whether the material can be public after the school.
+1. Create a new branch from the latest `main`, for example `materials/day2-tree-models` or `lecturer/your-name-session`.
+2. Add or update files in the folders described below.
+3. Commit the changes with a short, clear message.
+4. Push the branch and open a pull request for review before merging into `main`.
+
+**Contributors without write access**
+
+1. Open the repository on GitHub and click **Fork**. This creates your own copy of the repository.
+2. In your fork, create a new branch rather than editing `main` directly. Use a descriptive name such as `materials/day3-gp`.
+3. Upload or edit your files in the correct folders. GitHub's web interface is fine for small uploads; use Git locally for larger changes.
+4. Commit the changes in your fork.
+5. Click **Contribute** or **New pull request** and choose `CCP-NTH/ai4nth-summer-school` as the target repository.
+6. In the pull request description, say what you added, which day/session it belongs to, whether it is ready for public release, and whether it needs extra software or data.
 
 Use this repository structure when adding new teaching content:
 
 1. Choose the correct day folder in `course_materials/`.
-2. Add released notebooks, slides, PDFs, and HTML tools directly to that day folder.
-3. Add student exercises to `exercises/` when a separate exercise file is needed.
-4. Add worked solutions or expected outputs to `solutions/` when they are ready to release.
-5. Update that day's `README.md` with any special software, data, timing or practical-output notes.
-6. Add dataset files or metadata under `datasets/` only when release permissions and licences are clear.
-7. Use the templates in `instructors/` to describe the session, software requirements and expected lab outputs.
+2. Put released notebooks, slides, PDFs, and HTML tools directly in that day folder so students can find them easily.
+3. Put separate student-facing exercise files in that day's `exercises/` folder when needed.
+4. Put worked solutions or reference outputs in that day's `solutions/` folder only when they are approved for release.
+5. Update that day's `README.md` with any special software, data, timing, or expected-output notes.
+6. Put dataset files under `datasets/` only when release permissions and licences are clear. Update `datasets/chf_case_study/metadata.yaml` or add equivalent metadata for new datasets.
+7. Use the templates in `instructors/` to describe the session, software requirements, expected lab outputs, and public-release status.
 
-If material is not ready for public release, record that clearly in the lecturer checklist and keep private files out of the public repository until release is approved.
+Before opening a pull request, check:
+
+- Files are in the correct day folder.
+- Notebook outputs do not contain private paths, credentials, or unnecessary large output.
+- Any new package requirements are documented.
+- Dataset source, licence, and release status are documented.
+- Private or not-yet-approved material is clearly marked and not added to public release folders.
 
 ## Guidance for Students
 
