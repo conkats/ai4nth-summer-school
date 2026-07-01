@@ -1,12 +1,16 @@
 # Datasets
 
-This folder documents datasets used in the AI4NTH Summer School. Large datasets should not be committed directly unless explicitly approved for public release.
+This folder contains the released CSV files used by the AI4NTH Summer School notebooks.
 
-| Dataset | Purpose | Used in |
-|---|---|---|
-| CHF case study | Main structured thermal-hydraulics dataset | Days 1–5 |
-| Failure-gallery subset | Workflow and leakage examples | Day 1 |
-| GP subset | Gaussian Process surrogate modelling | Day 3 |
-| Edge-case / unsafe-domain set | Guardrail and domain-validity testing | Days 4–5 |
+| File | Purpose |
+|---|---|
+| `chf_train.csv` | Organiser-defined training split for the CHF case study |
+| `chf_val.csv` | Organiser-defined validation split for the CHF case study |
+| `chf_test.csv` | Organiser-defined test split for the CHF case study |
+| `chf_GP.csv` | Gaussian-process subset used in surrogate-modelling sessions |
+| `chf_ong.csv` | Main CHF dataset export used for exploratory workflows |
+| `chf_OOD_Kim2000.csv` | Out-of-domain CHF data source |
+| `chf_OOD_Lee1966.csv` | Out-of-domain CHF data source |
+| `chf_OOD_Peterlongo1966.csv` | Out-of-domain CHF data source |
 
-Each dataset should include metadata, provenance, licensing status, expected splits and any processing notes before release.
+Dataset provenance, licensing status, target variable, feature notes, and split definitions are documented in `chf_case_study/metadata.yaml`.

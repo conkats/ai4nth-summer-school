@@ -4,12 +4,9 @@
 
 Onboarding and setup
 
-## Expected materials to add
+## Materials in this folder
 
-- `slides/` — orientation slides and setup overview
-- `notebooks/` — environment-check notebooks
-- `exercises/` — setup and warm-up exercises
-- `solutions/` — reference outputs for setup checks
+- `Day0_self_learning_onboarding.ipynb` - self-learning setup and dataset-orientation notebook
 
 ## Notes for lecturers
 

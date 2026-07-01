@@ -6,10 +6,9 @@ Neural networks for thermal-hydraulics applications
 
 ## Expected materials to add
 
-- `slides/` — lecture slides for neural-network concepts and workflows
-- `notebooks/` — neural-network practical notebooks
-- `exercises/` — exercises for training, evaluation and diagnostics
-- `solutions/` — completed notebooks or reference outputs
+Neural-network notebooks, lecture slides, PDFs, and HTML tools should be added directly to this day folder when released.
+
+Use `exercises/` for separate student-facing practical tasks and `solutions/` for worked solutions or reference outputs when those files are needed.
 
 ## Notes for lecturers
 

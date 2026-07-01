@@ -6,10 +6,9 @@ Tree-based models and structured thermal-hydraulics data
 
 ## Expected materials to add
 
-- `slides/` — lecture slides for decision trees, ensembles and model interpretation
-- `notebooks/` — practical notebooks using tree-based models
-- `exercises/` — exercises for fitting, evaluating and interpreting models
-- `solutions/` — completed notebooks or reference outputs
+Tree-model practical notebooks, lecture slides, PDFs, and HTML tools should be added directly to this day folder when released.
+
+Use `exercises/` for separate student-facing practical tasks and `solutions/` for worked solutions or reference outputs when those files are needed.
 
 ## Notes for lecturers
 

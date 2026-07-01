@@ -1,11 +1,9 @@
 # CHF Case Study Dataset
 
-This folder is reserved for the main structured thermal-hydraulics dataset used across the AI4NTH Summer School.
+This metadata folder documents the structured thermal-hydraulics CSV files stored directly under `datasets/`.
 
-- `metadata.yaml` documents dataset status, source, target variable, features and split locations.
-- `raw/` is for source data files.
-- `processed/` is for cleaned or derived data files.
-- `splits/` is for train, validation, test and unsafe-domain split files.
-- `examples/` is for small example files used in documentation or notebooks.
+- `metadata.yaml` records dataset status, source, target variable, features, and split file paths.
+- The released CSV files live one level up in `datasets/` so notebooks can load them through a single `datasets` path.
+- Keep large derived files out of the repository unless release permissions and licensing are confirmed.
 
-Replace placeholder metadata before releasing course materials publicly.
+Update the metadata before releasing new or changed course data publicly.

@@ -6,10 +6,9 @@ Surrogate modelling and Gaussian Processes
 
 ## Expected materials to add
 
-- `slides/` — lecture slides for surrogate modelling and Gaussian Processes
-- `notebooks/` — practical surrogate-modelling notebooks
-- `exercises/` — exercises for uncertainty-aware surrogate workflows
-- `solutions/` — completed notebooks or reference outputs
+Surrogate-modelling notebooks, lecture slides, PDFs, and HTML tools should be added directly to this day folder when released.
+
+Use `exercises/` for separate student-facing practical tasks and `solutions/` for worked solutions or reference outputs when those files are needed.
 
 ## Notes for lecturers
 

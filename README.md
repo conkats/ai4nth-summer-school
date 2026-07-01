@@ -30,12 +30,7 @@ Lecturers should use the templates in `instructors/` when preparing materials:
 - `instructors/software_requirements_template.md`
 - `instructors/practical_outputs_template.md`
 
-Please add teaching materials to the relevant day folder under `course_materials/`:
-
-- `slides/` for presentation files
-- `notebooks/` for runnable Jupyter notebooks
-- `exercises/` for student-facing practical tasks
-- `solutions/` for reference solutions or expected outputs
+Please add released teaching materials directly to the relevant day folder under `course_materials/` so students can see notebooks, slides, PDFs, and HTML tools in one place. Use `exercises/` and `solutions/` for structured practical tasks and reference outputs when those are needed.
 
 Before submitting materials:
 
@@ -66,13 +61,12 @@ Recommended contribution workflow:
 Use this repository structure when adding new teaching content:
 
 1. Choose the correct day folder in `course_materials/`.
-2. Add lecture slides to `slides/`.
-3. Add practical notebooks to `notebooks/`.
-4. Add student exercises to `exercises/`.
-5. Add worked solutions or expected outputs to `solutions/`.
-6. Update that day's `README.md` with any special software, data, timing or practical-output notes.
-7. Add dataset files or metadata under `datasets/` only when release permissions and licences are clear.
-8. Use the templates in `instructors/` to describe the session, software requirements and expected lab outputs.
+2. Add released notebooks, slides, PDFs, and HTML tools directly to that day folder.
+3. Add student exercises to `exercises/` when a separate exercise file is needed.
+4. Add worked solutions or expected outputs to `solutions/` when they are ready to release.
+5. Update that day's `README.md` with any special software, data, timing or practical-output notes.
+6. Add dataset files or metadata under `datasets/` only when release permissions and licences are clear.
+7. Use the templates in `instructors/` to describe the session, software requirements and expected lab outputs.
 
 If material is not ready for public release, record that clearly in the lecturer checklist and keep private files out of the public repository until release is approved.
 

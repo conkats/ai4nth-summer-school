@@ -6,10 +6,9 @@ Verification, validation, uncertainty quantification and safe optimisation
 
 ## Expected materials to add
 
-- `slides/` — lecture slides for VVUQ, optimisation and responsible decision support
-- `notebooks/` — practical notebooks for uncertainty and optimisation workflows
-- `exercises/` — exercises for validity checks and optimisation constraints
-- `solutions/` — completed notebooks or reference outputs
+VVUQ and optimisation notebooks, lecture slides, PDFs, and HTML tools should be added directly to this day folder when released.
+
+Use `exercises/` for separate student-facing practical tasks and `solutions/` for worked solutions or reference outputs when those files are needed.
 
 ## Notes for lecturers
 

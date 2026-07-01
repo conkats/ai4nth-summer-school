@@ -4,12 +4,12 @@
 
 Foundations for AI in nuclear thermal hydraulics
 
-## Expected materials to add
+## Materials in this folder
 
-- `slides/` — lecture slides and conceptual framing
-- `notebooks/` — introductory data and modelling notebooks
-- `exercises/` — practical exercises for foundational workflows
-- `solutions/` — worked solutions and reference outputs
+- `Day1_Lab1_Baseline_Workflow.ipynb` - introductory CHF modelling workflow notebook
+- `Day_1_Theory_on_Linear_Ridge_Regression.pdf` - theory handout
+- `dataset_splitting_rules_engineering_ml.pdf` - dataset-splitting guidance
+- `chf_3d_multi_csv_viewer.html` - local CSV visualisation tool
 
 ## Notes for lecturers
 
