@@ -45,7 +45,7 @@ permalink: /
     <div class="grid grid-3">
       <div class="card">
         <h3>Participant Logistics</h3>
-        <p>Venue, accommodation, lunch, transport, and computing setup information is available on the Practical Information page.</p>
+        <p>Venue, accommodation, lunch, transport, and computing setup information is available on the <a href="{{ '/practical_information.html' | relative_url }}">Practical Information page</a>.</p>
         <p><a class="button button-secondary" href="{{ '/practical_information.html' | relative_url }}">View Practical Information</a></p>
       </div>
     </div>

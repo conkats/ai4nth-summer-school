@@ -19,7 +19,9 @@ Daresbury
 Warrington  
 WA4 4AD
 
-Please follow the local signs when you arrive. Registration details will be provided closer to the event.
+Please follow the local signage when you arrive.
+- Visitor parking is available near reception.
+- Please register at reception upon arrival.
 
 ---
 
@@ -40,7 +42,7 @@ Accommodation for registered participants who requested it has been pre-paid by 
 
 ## Lunch
 
-Lunch vouchers will be provided each day. These vouchers can be used in the Daresbury Laboratory restaurants.
+Lunch vouchers will be provided each day. These vouchers can be used in the Daresbury Laboratory restaurant (Block A).
 
 Reserved seating will be available for summer school participants.
 
@@ -70,8 +72,6 @@ Participants are encouraged to run the environment check notebook before the eve
 
 Please make sure you have:
 
-- confirmed your registration;
-- informed the organisers of any accommodation or dietary requirements;
 - installed the software environment;
 - run the environment check notebook;
 - brought your laptop and charger.
