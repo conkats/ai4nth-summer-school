@@ -41,6 +41,17 @@ permalink: /
   </section>
 
   <section class="section">
+    <h2>Practical Information</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <h3>Participant Logistics</h3>
+        <p>Venue, accommodation, lunch, transport, and computing setup information is available on the Practical Information page.</p>
+        <p><a class="button button-secondary" href="{{ '/practical_information.html' | relative_url }}">View Practical Information</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
     <h2>Overview</h2>
     <p>
       This summer school introduces machine learning as a <strong>careful engineering tool</strong>
