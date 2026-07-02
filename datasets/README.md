@@ -1,6 +1,12 @@
 # Datasets
 
-This folder contains the released CSV files used by the AI4NTH Summer School notebooks.
+This folder contains the CSV files used by the AI4NTH Summer School notebooks.
+
+## What Students Should Do
+
+You normally do not need to open these files directly. The notebooks load the required files from this folder.
+
+If a notebook asks you to choose or inspect a dataset, use the file names below.
 
 | File | Purpose |
 |---|---|
@@ -13,4 +19,8 @@ This folder contains the released CSV files used by the AI4NTH Summer School not
 | `chf_OOD_Lee1966.csv` | Out-of-domain CHF data source |
 | `chf_OOD_Peterlongo1966.csv` | Out-of-domain CHF data source |
 
-Dataset provenance, licensing status, target variable, feature notes, and split definitions are documented in `chf_case_study/metadata.yaml`.
+## For Lecturers And Dataset Maintainers
+
+This section is for lecturers, organisers, and dataset maintainers.
+
+Dataset provenance, licensing status, target variable, feature notes, and split definitions are documented in `chf_case_study/metadata.yaml`. Keep that metadata up to date before release.

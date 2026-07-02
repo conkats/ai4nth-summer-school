@@ -1,27 +1,45 @@
 # AI for Nuclear Thermal Hydraulics Summer School
 
-This repository supports the **AI for Nuclear Thermal Hydraulics Summer School**. It contains the public event website, lecturer guidance, teaching materials, environment setup files and dataset documentation.
+This repository contains the public website, setup instructions, datasets, and hands-on course materials for the **AI for Nuclear Thermal Hydraulics Summer School**.
 
-## Open the Website
+## Start Here As A Student
+
+If you are preparing your laptop for the summer school, follow this order:
+
+1. Read the [programme](https://ccp-nth.github.io/ai4nth-summer-school/programme.html) so you know what will be covered.
+2. Go to `environment/` and follow `environment/README.md`. This is the main setup guide for participants.
+3. Create and activate the Conda environment as described there.
+4. Start JupyterLab and run `environment/00_environment_check.ipynb`.
+5. If all environment checks pass, go to `course_materials/day0_onboarding/`.
+6. Read `course_materials/day0_onboarding/README.md`.
+7. Open and run `course_materials/day0_onboarding/Day0_self_learning_onboarding.ipynb`.
+8. After Day 0, use the relevant day folder under `course_materials/` for later practical sessions.
+9. Use files under `datasets/` only as directed by the notebooks or course team.
+
+If the environment check or Day 0 notebook does not run successfully, contact the organisers before the course rather than spending too long debugging alone.
+
+## Public Website
 
 - [Summer school homepage](https://ccp-nth.github.io/ai4nth-summer-school/)
 - [Programme](https://ccp-nth.github.io/ai4nth-summer-school/programme.html)
 - [Registration](https://ccp-nth.github.io/ai4nth-summer-school/registration.html)
 - [Contact](https://ccp-nth.github.io/ai4nth-summer-school/contact.html)
-- [Lecturer Guidance](https://ccp-nth.github.io/ai4nth-summer-school/lecturer_guidance.html)
 - [Teaching Materials](https://ccp-nth.github.io/ai4nth-summer-school/materials.html)
 
-## Repository Map
+## Repository Map For Students
 
-- `website/` — public website pages: home, programme, registration, contact, lecturer guidance and materials overview.
-- `_layouts/` — Jekyll layout used by the website.
-- `assets/` — website images and CSS.
-- `environment/` — Python/Jupyter setup files for course notebooks.
-- `datasets/` — dataset documentation, metadata and planned split locations.
-- `course_materials/` — slides, notebooks, exercises and solutions organised by day.
-- `instructors/` — templates and checklists for lecturer contributions.
+- `environment/` - setup instructions and the environment check notebook.
+- `course_materials/` - day-by-day notebooks, slides, PDFs, and practical materials.
+- `datasets/` - data files used by the notebooks.
+- `website/` - source files for the public website.
+- `assets/` and `_layouts/` - website support files.
+- `instructors/` - lecturer-only templates and checklists; students do not need this folder.
 
-## Guidance for Lecturers
+The course is designed for standard laptops. If a notebook needs extra packages or non-standard software, that requirement should be documented in the relevant day folder.
+
+## For Lecturers And Contributors
+
+This section is for lecturers, organisers, and repository contributors. Students can normally stop at the student guidance above.
 
 Lecturers should use the templates in `instructors/` when preparing materials:
 
@@ -43,7 +61,7 @@ Before submitting materials:
 
 Dataset contributions should go under `datasets/`. Do not add large datasets or files with unclear licensing. Add metadata, source, licence, target variable, feature descriptions and split information before release.
 
-### How to Contribute or Upload Materials
+### How To Contribute Or Upload Materials
 
 There are two normal ways to add material. Use the first route only if you are a repository maintainer; otherwise use the fork and pull request route.
 
@@ -81,19 +99,7 @@ Before opening a pull request, check:
 - Dataset source, licence, and release status are documented.
 - Private or not-yet-approved material is clearly marked and not added to public release folders.
 
-## Guidance for Students
-
-Students should start with the public website:
-
-1. Read the [programme](https://ccp-nth.github.io/ai4nth-summer-school/programme.html).
-2. Complete any onboarding or pre-work material when it becomes available.
-3. Follow the setup instructions in `environment/installation.md`.
-4. Use `course_materials/` for day-by-day notebooks, exercises and slides.
-5. Use `datasets/` only as documented by the notebooks and instructors.
-
-The course is designed for standard laptops. If a notebook needs extra packages or non-standard software, that requirement should be documented in the relevant day folder.
-
-## Website Updates
+### Website Updates
 
 Website source pages live in `website/`. The public URLs are controlled by each page's Jekyll `permalink` field, so source files can remain grouped while the website still publishes clean root-level links.
 
