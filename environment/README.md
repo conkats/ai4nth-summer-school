@@ -62,7 +62,7 @@ Each time you want to use the notebooks, run:
 conda activate ai4nth
 jupyter lab
 ```
-For participants who require the stand-alone `conda-pack` environment, please contact the Teaching Assistants (TAs) to request an external download link.
+
 Windows users may also use:
 
 ```bat
@@ -74,6 +74,10 @@ Linux / macOS users may also use:
 ```bash
 ./start_jupyter_linux.sh
 ```
+
+### Stand-alone Conda-pack Environment
+
+Participants who require the stand-alone `conda-pack` environment should contact the Teaching Assistants (TAs) to request an external download link.
 
 ## Advanced Users
 
