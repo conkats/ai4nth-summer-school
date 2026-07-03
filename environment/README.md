@@ -56,24 +56,34 @@ If all cells run successfully, your laptop is ready for the summer school.
 
 ## Starting Jupyter Later
 
-Each time you want to use the notebooks, run:
+After you have completed Steps 1-5 and the environment check has passed, you can start JupyterLab in either of the following ways.
+
+### Option A: Manual Start
+
+Use this from any terminal where Conda is available:
 
 ```bash
 conda activate ai4nth
 jupyter lab
 ```
 
-Windows users may also use:
+### Option B: Launcher Script
+
+Use this shortcut if you want JupyterLab to open from the repository root and point to the environment check notebook automatically.
+
+From the `environment/` folder, Windows users can run:
 
 ```bat
 start_jupyter_win.bat
 ```
 
-Linux / macOS users may also use:
+From the `environment/` folder, Linux / macOS users can run:
 
 ```bash
 ./start_jupyter_linux.sh
 ```
+
+If the launcher script does not work, use Option A.
 
 ### Stand-alone Conda-pack Environment
 

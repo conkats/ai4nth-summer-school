@@ -5,9 +5,9 @@ REM AI4NTH Summer School - Conda Jupyter launcher for Windows
 REM Run this from the environment folder after creating the ai4nth Conda environment.
 
 set "SCRIPT_DIR=%~dp0"
-for %%I in ("%SCRIPT_DIR%..") do set "BUNDLE_DIR=%%~fI"
+for %%I in ("%SCRIPT_DIR%..") do set "REPO_ROOT=%%~fI"
 set "CHECK_NOTEBOOK=%SCRIPT_DIR%00_environment_check.ipynb"
-set "COURSE_MATERIALS_DIR=%BUNDLE_DIR%\course_materials"
+set "COURSE_MATERIALS_DIR=%REPO_ROOT%\course_materials"
 
 where conda >nul 2>&1
 if errorlevel 1 (
@@ -24,15 +24,15 @@ if errorlevel 1 (
     exit /b 1
 )
 
-cd /d "%BUNDLE_DIR%"
+cd /d "%REPO_ROOT%"
 
 echo Starting JupyterLab with the ai4nth Conda environment...
 echo.
 
 if exist "%CHECK_NOTEBOOK%" (
-    call jupyter lab --ServerApp.root_dir="%BUNDLE_DIR%" "%CHECK_NOTEBOOK%"
+    call jupyter lab --ServerApp.root_dir="%REPO_ROOT%" "%CHECK_NOTEBOOK%"
 ) else (
-    call jupyter lab --ServerApp.root_dir="%BUNDLE_DIR%" "%COURSE_MATERIALS_DIR%"
+    call jupyter lab --ServerApp.root_dir="%REPO_ROOT%" "%COURSE_MATERIALS_DIR%"
 )
 
 if errorlevel 1 (
