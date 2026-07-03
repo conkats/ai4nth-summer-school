@@ -2,7 +2,17 @@
 
 This repository contains the public website, setup instructions, datasets, and hands-on course materials for the **AI for Nuclear Thermal Hydraulics Summer School**.
 
-## Start Here As A Student
+## Public Website
+
+- [Summer school homepage](https://ccp-nth.github.io/ai4nth-summer-school/)
+- [Programme](https://ccp-nth.github.io/ai4nth-summer-school/programme.html)
+- [Registration](https://ccp-nth.github.io/ai4nth-summer-school/registration.html)
+- [Practical Information](https://ccp-nth.github.io/ai4nth-summer-school/practical_information.html)
+- [Teaching Materials](https://ccp-nth.github.io/ai4nth-summer-school/materials.html)
+- [Contact](https://ccp-nth.github.io/ai4nth-summer-school/contact.html)
+
+
+## Repository Map For Students
 
 If you are preparing your laptop for the summer school, follow this order:
 
@@ -18,15 +28,6 @@ If you are preparing your laptop for the summer school, follow this order:
 
 If the environment check or Day 0 notebook does not run successfully, contact the organisers before the course rather than spending too long debugging alone.
 
-## Public Website
-
-- [Summer school homepage](https://ccp-nth.github.io/ai4nth-summer-school/)
-- [Programme](https://ccp-nth.github.io/ai4nth-summer-school/programme.html)
-- [Registration](https://ccp-nth.github.io/ai4nth-summer-school/registration.html)
-- [Contact](https://ccp-nth.github.io/ai4nth-summer-school/contact.html)
-- [Teaching Materials](https://ccp-nth.github.io/ai4nth-summer-school/materials.html)
-
-## Repository Map For Students
 
 - `environment/` - setup instructions and the environment check notebook.
 - `course_materials/` - day-by-day notebooks, slides, PDFs, and practical materials.
@@ -35,7 +36,6 @@ If the environment check or Day 0 notebook does not run successfully, contact th
 - `assets/` and `_layouts/` - website support files.
 - `instructors/` - lecturer-only templates and checklists; students do not need this folder.
 
-The course is designed for standard laptops. If a notebook needs extra packages or non-standard software, that requirement should be documented in the relevant day folder.
 
 ## For Lecturers And Contributors
 
