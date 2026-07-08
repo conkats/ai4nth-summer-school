@@ -1,5 +1,19 @@
 # Day 4: Neural Networks
 
+## Session Information
+
+**Session title:** Day 4: Neural Networks and Physics-guided Machine Learning
+
+**Contributor(s):** Dr Alex Skillen, University of Manchester
+
+These materials were prepared for the AI for Nuclear Thermal Hydraulics Summer School, 13-17 July 2026.
+
+**Licence:**
+
+- Slides/handouts: © Alex Skillen, 2026. Shared with permission for use in the AI4NTH Summer School.
+- Code/notebooks: MIT License, unless otherwise stated in the file or folder.
+- Figures/data: please see individual file notices.
+
 This folder will contain material for neural networks for thermal-hydraulics applications.
 
 ## What Students Should Do

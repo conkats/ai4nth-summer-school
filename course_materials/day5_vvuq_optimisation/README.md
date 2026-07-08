@@ -1,5 +1,19 @@
 # Day 5: VVUQ and Optimisation
 
+## Session Information
+
+**Session title:** Day 5: VVUQ and Optimisation
+
+**Contributor(s):** Dr Saleh Rezaeiravesh, University of Manchester; Ubaid Ali Qadri, STFC
+
+These materials were prepared for the AI for Nuclear Thermal Hydraulics Summer School, 13-17 July 2026.
+
+**Licence:**
+
+- Slides/handouts: © Saleh Rezaeiravesh and Ubaid Ali Qadri, 2026. Shared with permission for use in the AI4NTH Summer School.
+- Code/notebooks: MIT License, unless otherwise stated in the file or folder.
+- Figures/data: please see individual file notices.
+
 This folder will contain material for verification, validation, uncertainty quantification, and optimisation.
 
 ## What Students Should Do

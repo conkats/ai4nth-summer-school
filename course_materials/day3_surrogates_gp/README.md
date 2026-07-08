@@ -1,5 +1,19 @@
 # Day 3: Surrogates and Gaussian Processes
 
+## Session Information
+
+**Session title:** Day 3: Surrogate Modelling and Gaussian Processes
+
+**Contributor(s):** Prof. Michael Bluck, Imperial College London; Dr Tim Rogers, The University of Sheffield
+
+These materials were prepared for the AI for Nuclear Thermal Hydraulics Summer School, 13-17 July 2026.
+
+**Licence:**
+
+- Slides/handouts: © Michael Bluck and Tim Rogers, 2026. Shared with permission for use in the AI4NTH Summer School.
+- Code/notebooks: MIT License, unless otherwise stated in the file or folder.
+- Figures/data: please see individual file notices.
+
 This folder will contain material for surrogate modelling and Gaussian processes.
 
 ## What Students Should Do

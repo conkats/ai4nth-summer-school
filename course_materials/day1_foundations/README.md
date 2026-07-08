@@ -1,5 +1,19 @@
 # Day 1: Foundations
 
+## Session Information
+
+**Session title:** Day 1: Foundations and Baseline Workflow
+
+**Contributor(s):** Prof. Michael Bluck, Imperial College London; Dr Yu Duan, The University of Sheffield
+
+These materials were prepared for the AI for Nuclear Thermal Hydraulics Summer School, 13-17 July 2026.
+
+**Licence:**
+
+- Slides/handouts: © Michael Bluck and Yu Duan, 2026. Shared with permission for use in the AI4NTH Summer School.
+- Code/notebooks: MIT License, unless otherwise stated in the file or folder.
+- Figures/data: please see individual file notices.
+
 This folder contains the Day 1 foundation material for the AI4NTH Summer School.
 
 ## What Students Should Do

@@ -143,6 +143,17 @@ Please use the datasets only as instructed in the notebooks or by the teaching t
 | `website/` | Source Markdown files for the GitHub Pages website |
 | `assets/` | Website images and CSS |
 | `_layouts/` | GitHub Pages layout templates |
+| `CONTRIBUTORS.md` | Contributor acknowledgements for organisers, lecturers, teaching assistants, and material contributors |
+
+---
+
+# Licence and Reuse
+
+Unless otherwise stated, teaching materials in this repository are shared under CC BY 4.0, and code examples are shared under the MIT License.
+
+Some slides, figures, datasets, or third-party materials may have different licence terms. Please check the licence notice in each folder or file before reuse.
+
+See [CONTRIBUTORS.md](CONTRIBUTORS.md) for contributor acknowledgements.
 
 ---
 

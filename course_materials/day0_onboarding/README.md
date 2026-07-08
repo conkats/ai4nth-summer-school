@@ -1,5 +1,19 @@
 # Day 0: Onboarding
 
+## Session Information
+
+**Session title:** Day 0: Onboarding and Environment Preparation
+
+**Contributor(s):** Dr Yu Duan, The University of Sheffield; Dr Wei Wang, UKRI STFC
+
+These materials were prepared for the AI for Nuclear Thermal Hydraulics Summer School, 13-17 July 2026.
+
+**Licence:**
+
+- Slides/handouts: © Wei Wang and Yu Duan, 2026. Shared with permission for use in the AI4NTH Summer School.
+- Code/notebooks: MIT License, unless otherwise stated in the file or folder.
+- Figures/data: please see individual file notices.
+
 This folder contains the self-learning preparation material for Day 0.
 
 ## What Students Should Do
