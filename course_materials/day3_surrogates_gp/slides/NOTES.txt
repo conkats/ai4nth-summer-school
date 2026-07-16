@@ -1,0 +1,108 @@
+# =====================================================================================
+
+GP and Polynomial chaos predicts theta and needs data that has a distribution
+POD-Modes-fluctuations that cause fatigue, biggest value and get interpretability, reducing from million of DoF to 10 DoF
+POD is not mesh sensitivity/consistent mesh and depends on the quality of the experiments and simulation
+Data put in snapshot matrix needs to pick it up
+AI/ML surrogate models
+Recurrent means the feedback from one direction through the network to the other
+Out-of-distribution failure
+
+Deep GP surrogates-needs the data to be in a distribution and combined with NN
+PINNS-take a fully connected NN, takes input a location (x,y,t) and predict 2D components of u,v,p from CFD mesh, train it and loss function, automate differentiation bc of back propagation and construct equations (minimize different between input and outputs and degree that satisfies equation (momentum and mass conservation)-does PDEs fast
+	- Cons: 
+		○ competing data loss and physics loss
+		○ Near boundaries are not obvious, in NTH everything matters at the wall -DNB
+		○ Stiffness and computational cost
+	- CNN are employed to reconstruct sub-grid scale stresses and capture energy dissipation in LES
+	- RPI (heat flux partitioning models can calibrated using AI/ML models trained on experimental data and micro-scale CFD 
+Scaling -AI/ML of prototypical test facility
+# =====================================================================================
+Tim Rogers Sheffield:
+Emulators-data driven models and surrogates coming from numerical simulation
+- Least squares
+- Quadratic
+- Polynomial of less than the order of data points
+
+GP is a linear filter, stationary process that gives you a fix covariance
+
+Samples coming from a normal distribution (bell curve)-define by mean, std and variance, more likely close to mean-something that behaves like that when I get a sample, behaves like the input domain.
+So GP is defined by mean and some covariance function that describes how the two points vary
+
+Kernel is function of pair of points in input space and tells similarity of function values, we need only the input to calculate that. Using Hilbert space, expresses how two points in output vary as function on the input.
+
+GP definition: in 1D normal is bell curve, 2D is ellipsis. GP is the limit that happens in the dimensions.
+
+D script is the x, y data points, y_i is the extra uncertainty
+y=probability distribution of y, that we have a mean on zero, or constant or linear, and covariance is given by evaluating the kernel values and the standard deviation squared
+
+N is multivariant normal and linked them. What does y* look when I update y?
+
+K_ff*=pairwise evaluation of the covariance function
+refer to multivariance gaussian-marginalisation--> averaging way and conditioning
+
+Building a GP emulator
+alpha=K_ff*+noise deducted
+m(x)=mean----can be POD, coarse model if know nothing then can set it to 0
+k(x,x')---->some function that tells how similar inputs point are.
+Run experiments small number of times to acquire input output pairs for D script
+Validation points-few extra runs of expensive model to build confidence points D_v
+Predict across domain x in domain (omega) to get mean and covariance-to predict a large part of the domain, e.g. sampling many x's, predicting 
+assume uncertainty remains gaussian, issues if target variables do not leave in nice domain
+if parameters in the function, you will need to learn the physical parameters
+if system can be written linear, e.g. linear regression can cover non-linear function, basis \phi
+can introduce bias into the parameters of GP
+
+covariance function on x and x' that are similar-Euclidian distance of the two points-how close they are 
+In GP the hyperparameters are fixed compared to NN the parameters to learn increase based on the complexity of the function
+
+||x-x'||^2 = square distance if it gets closer are similar, function of squared exponential becomes more wiggly
+
+kernels can be compose together, when summing kernels is an OR operation in input space
+
+2.Collecting Data
+high covariance--> predictive uncertainty goes down
+Latin Hypercube is evenly spaced points for fitting on the f(x)
+
+3. Validation
+Tools like how many times my true data leaves the predicted-5% 
+or log probabilities and probabilities ratios of prior over posteriori
+Plot shows marginal predictive variance, the uncertainty at each input point from the square exponential
+(active learning-the model tells us what will it see next)
+
+4. Prediction
+we can't guarantee predictions will be accurate and uncertainty is correct
+
+Training:
+GP does not have some many parameters to train like NN, no loss function
+Non-parametric model
+Needs tuning of hyperparameters of kernel
+Actually the GP is very expensive to compute bc of inverting the [K_ff+sigma^2] matrix e.g. every time we double data, it gets 8 time slower to compute and memory requirement in RAM of (O(N^3)-N cubic computation problem).
+
+Hyperparameter tuning and optimisation loops
+cost function that we minimize or maximize is  the marginal likelihood, such as to get the observations given our inputs after averaging the number of functions we fit to get a single number that tells how the number of functions fit the data (e.g. model complexity and model fit).
+FITC and PITC are not worthy any more
+Eigen-basis expansions-doing POD on GP
+SDE-stochastic differential equation and solve that instead of GP
+
+GP to use for few scalar out eg. max 2-4
+PCA before hitting GP
+Step functions and Non-stationary functions--> GP fails
+GP is designed to understand uncertainties
+
+Out of domain-envelope:
+1)in terms of input space-GP is better and well handle-suggests that needs more data
+2)more dangerous when there is structural domain shift in the system, GP evaluates only with input seen before.
+# =====================================================================================
+### Application
+GP can be used for parameter space exploration, the gp_examples.ipynb can handle up to 10 inputs with a max of 10000 sample points
+# =====================================================================================
+### available models
+GPy for gaussian models
+https://www.gpflow.org/
+https://gpy.readthedocs.io/en/deploy/
+
+GPyTorch
+https://gpytorch.ai/
+
+tensorflow is dying
