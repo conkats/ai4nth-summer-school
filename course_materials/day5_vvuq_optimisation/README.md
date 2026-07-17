@@ -39,3 +39,4 @@ This section is for lecturers and organisers preparing this day.
 - Document any extra software requirements.
 - Include expected practical outputs.
 - Flag likely student difficulties.
+- Toy tool to practise day5 https://localregressionstudio.optibayeslab.com/#step-preprocess
